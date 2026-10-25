@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>♥️Amreen & Anil Wedding Reception Invitation♥️</title>
+    
+    <!-- WhatsApp Preview Meta Tags -->
+    <meta property="og:title" content="♥️Amreen & Anil Wedding Reception Invitation♥️">
+    <meta property="og:image" content="images/logo_AA.jpg">
+    <meta property="og:type" content="website">
+
+    <!-- UPDATE CSS LINK WITH VERSION TAG -->
+    <link rel="stylesheet" href="style.css?v=2.4">
+
+    <!-- UPDATE JS SCRIPT TAG WITH VERSION TAG -->
+    <script src="script.js?v=2.4" defer></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- FLOATING HEARTS -->
+    <div class="hearts">
+        <span>♥</span><span>♥</span><span>♥</span><span>♥</span><span>♥</span>
+    </div>
+
+    <!-- MUSIC -->
+    <audio id="weddingMusic" loop>
+        <source src="music/jashn-e-bahaara.mp3" type="audio/mp3">
+    </audio>
+    <button id="musicButton" class="music-button" aria-label="Toggle Music">♫</button>
+
+    <!-- 1. VERTICAL ENVELOPE LANDING SCREEN -->
+    <section id="envelopeScene">
+        <div class="real-envelope">
+            <div class="envelope-back"></div>
+            
+            <!-- REVEALED POEM CARD -->
+            <div class="hidden-card">
+                <div class="card-watermark-bg"></div>
+                <div class="mini-card">
+                    <p class="envelope-poem">
+                        ✦Two souls, one journey✦<br>
+                        ♥Two hearts, one destiny♥<br>
+                        A love that stands the test of time!
+                    </p>
+                </div>
+
+                <!-- SCROLL INDICATOR ON THE POEM CARD -->
+                <div class="scroll-indicator">
+                    <div class="chevron"></div>
+                </div>
+            </div>
+
+            <!-- ENVELOPE FRONT CONTAINER -->
+            <div class="envelope-front">
+                <div class="envelope-intro-text">
+                    <p class="poetic-quote">A celebration of love with timeless union!</p>
+                    <p class="tap-text">♥Tap the seal to open♥</p>
+                </div>
+            </div>
+
+            <div class="envelope-flap-3d"></div>
+            
+            <!-- CUSTOM WAX SEAL BUTTON -->
+            <button id="waxSeal" class="wax-seal" aria-label="Open Invitation">
+                <img src="images/seal.jpg" alt="Wax Seal" class="seal-img" onerror="this.src='images/seal.jpg';">
+            </button>
+        </div>
+    </section>
+	
+<!-- MAIN INVITATION FLOW -->
+    <main id="invitation">
+
+        <!-- 2. COVER PHOTO & COUNTDOWN -->
+        <section class="screen-section cover-photo">
+            <div class="card-wrapper cover-overlay">
+                <img src="images/cover.jpg" alt="Amreen and Anil" onerror="this.src='https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=80'">
+                <div class="cover-details">
+                    <p class="countdown-title">The countdown begins!</p>
+                    <div class="cover-countdown">
+                        <div><span id="days">00</span><br><small>Days</small></div>
+                        <div><span id="hours">00</span><br><small>Hours</small></div>
+                        <div><span id="minutes">00</span><br><small>Mins</small></div>
+                        <div><span id="seconds">00</span><br><small>Secs</small></div>
+                    </div>
+                </div>
+
+                <!-- SCROLL INDICATOR -->
+                <div class="scroll-indicator">
+                    <div class="chevron"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. ROYAL RECEPTION DETAILS -->
+        <section class="screen-section royal-card-container">
+            <div class="card-wrapper royal-card">
+                <div class="card-watermark-bg logo-watermark"></div>
+                <div class="royal-card-inner card-relative-content">
+                    <div class="royal-content">
+                        <p class="small-title">Every love story is special... <br> Our's becomes even more meaningful with your presence!</p>
+                        <h1>Amreen <span>♥</span> Anil</h1>
+                        <h2>Wedding Reception</h2>
+                        <p class="date">
+                            <span class="date-number">31st January 2027</span> <br>
+							<p style="font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; color: #1e293b; font-weight: 1000; font-style: italic;">
+							Sunday ✦ 11:00 a.m.<br>(followed by lunch)
+                        </p>
+                    </div>
+                </div>
+
+                <!-- SCROLL INDICATOR -->
+                <div class="scroll-indicator">
+                    <div class="chevron"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. VENUE -->
+        <section class="screen-section venue-section">
+            <div class="card-wrapper gold-frame">
+                <div class="card-watermark-bg logo-watermark"></div>
+                <div class="card-relative-content">
+                    <h2>Celebration Venue</h2>
+                    <div class="gold-divider">✦ ♥ ✦</div>
+					<h3 style="font-size: 1.6rem; color: #0f172a; font-weight: 700;">Goldfinch Retreat</h3>
+                    <p style="font-family: 'Cormorant Garamond', serif; font-size: 1.35rem; color: #0f172a; font-weight: 700; font-style: italic;">
+                        Rashi Orchid, Kempegowda International Airport Road, Behind ITC, Chickajal P.O., Tharabanahalli, Bengaluru, Karnataka-562110
+                    </p>
+                    <a href="https://maps.app.goo.gl/T1vYPPjKGmGFTHG3A" target="_blank" class="luxury-button">Open Google Maps</a>
+                </div>
+
+                <!-- SCROLL INDICATOR -->
+                <div class="scroll-indicator">
+                    <div class="chevron"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. MEMORIES & MOMENTS (ALL PHOTOS IN ONE CARD) -->
+        <section class="screen-section gallery-section">
+            <div class="card-wrapper gold-frame">
+                <div class="card-watermark-bg logo-watermark"></div>
+                <div class="card-relative-content">
+                    <h2>Memories & Moments</h2>
+                    <div class="gold-divider">✦ ♥ ✦</div>
+					<p style="font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: #3a4b5c; font-style: italic; margin-bottom: 6px;">
+                        (Tap photo to view full size)
+                    </p>             
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="images/photo1.jpg" alt="Memory 1">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/photo2.jpg" alt="Memory 2">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/photo3.jpg" alt="Memory 3">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/photo4.jpg" alt="Memory 4">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/photo5.jpg" alt="Memory 5">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/photo6.jpg" alt="Memory 6">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SCROLL INDICATOR -->
+                <div class="scroll-indicator">
+                    <div class="chevron"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. RSVP -->
+        <section class="screen-section rsvp-section">
+            <div class="card-wrapper gold-frame">
+                <div class="card-watermark-bg logo-watermark"></div>
+                <div class="card-relative-content">
+                    <h2>We Would Love <br> Your Presence!</h2>
+					<div class="gold-divider">✦ ♥ ✦</div>
+                    <p style="font-family: 'Cormorant Garamond', serif; font-size: 1.35rem; color: #0f172a; font-weight: 700; font-style: italic;">
+					Kindly confirm your arrival.</p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeCdyGo-5ZSwCc3lgewBlrRlo27kjkBhDCB-K2udut67q543A/viewform?usp=header" target="_blank" rel="noopener noreferrer" class="luxury-button">
+                        Fill RSVP Form
+                    </a>
+                    <div style="margin-top: 15px;">
+                        <button id="calendarButton" class="luxury-button">Add To Calendar 📅</button>
+                    </div>
+                </div>
+
+                <!-- SCROLL INDICATOR -->
+                <div class="scroll-indicator">
+                    <div class="chevron"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. GIFTING / UPI SCANNER & HANDLES -->
+        <section class="screen-section gift-section">
+            <div class="card-wrapper gold-frame">
+                <div class="card-watermark-bg logo-watermark"></div>
+                <div class="card-relative-content">
+                    <h2>Registry & Wishes</h2>
+					<div class="gold-divider">✦ ♥ ✦</div>
+                    <p style="font-size:1.2rem; font-weight:1000; margin-top:6px; font-style:italic;">
+                       	Your presence and blessings are the greatest gift of all! For those who wish to extend a token of love,</br> you may tap copy for UPI numbers to send</br> digital blessings.
+                    </p>
+                     <!--<p style="font-size:1.2rem; font-weight:1000; margin-top:6px; font-style: italic;">Tap copy for UPI number to send digital blessings.</p>-->                   
+                    
+					<!-- MULTIPLE UPI HANDLES WITH COPY BUTTONS -->
+                    <div class="upi-handles-container">
+                        <div class="upi-item">
+                            <span>Amreen's UPI number: <span id="upi1">7406032020</span></span>
+                            <button class="copy-btn" data-target="upi1">Copy</button>
+                        </div>
+						
+						<div class="or-divider" style="font-style: italic; margin: 4px 0;">or</div>
+						
+                        <div class="upi-item">
+                            <span>Anil's UPI number: <span id="upi2">7406042020</span></span>
+                            <button class="copy-btn" onclick="copyUPI('upi2', this)">Copy</button>
+                        </div>
+						<p style="font-size:1.3rem; font-weight:1000; margin-top:6px; font-style:italic;">
+                       	We kindly request no boxed gifts or flower bouquets!
+                    </div>
+                </div>
+
+                <!-- SCROLL INDICATOR -->
+                <div class="scroll-indicator">
+                    <div class="chevron"></div>
+                </div>
+            </div>
+        </section>
+		
+        <!-- 8. CLOSING -->
+        <section class="screen-section">
+            <div class="card-wrapper royal-card">
+                <div class="card-watermark-bg logo-watermark"></div>
+                <div class="royal-card-inner card-relative-content">
+                    <div class="royal-content">
+					 <h2>Thank You!</h2>
+					 <div class="gold-divider">✦ ♥ ✦</div>
+                        <p class="small-title">With love and gratitude...</p>
+                        <p class="small-title" style="margin-top: 10px;">We look forward to celebrating <br> with you!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+	
+<!-- IN-SCREEN PHOTO PREVIEW MODAL -->
+<div id="photoLightbox" class="lightbox-modal">
+    <div class="lightbox-content-wrapper">
+        <button type="button" class="lightbox-close-btn" onclick="closeLightbox()">&times; Close</button>
+        <img id="lightboxImg" src="" alt="Photo Preview">
+    </div>
+</div>
+
+</body>
+</html>
