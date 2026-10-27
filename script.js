@@ -67,26 +67,34 @@ document.addEventListener("DOMContentLoaded", () => {
     updateCountdown();
     setInterval(updateCountdown, 1000);
 
-    /* ADD TO CALENDAR */
+    /* ADD TO CALENDAR (INCLUDES BOTH RECEPTION & WEDDING) */
     const calendarButton = document.getElementById("calendarButton");
     if (calendarButton) {
         calendarButton.addEventListener("click", () => {
             const calendar = 
 `BEGIN:VCALENDAR
 VERSION:2.0
+PRODID:-//Amreen & Anil Wedding//EN
 BEGIN:VEVENT
 SUMMARY:Wedding Reception - Amreen & Anil
-DESCRIPTION:Celebrating Amreen & Anil #AA♾️♥️
+DESCRIPTION:Celebrating the Wedding Reception of Amreen & Anil #AA♾️♥️
 LOCATION:Goldfinch Retreat, Bengaluru
 DTSTART:20270131T110000
 DTEND:20270131T160000
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wedding Ceremony - Amreen & Anil
+DESCRIPTION:Celebrating the Wedding Ceremony of Amreen & Anil #AA♾️♥️
+LOCATION:Goldfinch Retreat, Bengaluru
+DTSTART:20270201T103000
+DTEND:20270201T150000
 END:VEVENT
 END:VCALENDAR`;
 
             const file = new Blob([calendar], { type: "text/calendar" });
             const link = document.createElement("a");
             link.href = URL.createObjectURL(file);
-            link.download = "Amreen-Anil-Wedding.ics";
+            link.download = "Amreen-Anil-Wedding-Events.ics";
             link.click();
         });
     }
