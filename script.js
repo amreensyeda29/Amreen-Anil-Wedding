@@ -83,6 +83,13 @@ DTSTART:20270131T110000
 DTEND:20270131T160000
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Color Ceremony - Amreen & Anil
+DESCRIPTION:Celebrating The Color Ceremony of Amreen & Anil #AA♾️♥️
+LOCATION:Goldfinch Retreat, Bengaluru
+DTSTART:20270131T170000
+DTEND:20270131T200000
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Wedding Ceremony - Amreen & Anil
 DESCRIPTION:Celebrating the Wedding Ceremony of Amreen & Anil #AA♾️♥️
 LOCATION:Goldfinch Retreat, Bengaluru
